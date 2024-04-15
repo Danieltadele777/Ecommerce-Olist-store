@@ -1,9 +1,9 @@
-# E-commerce Olist store sales analysis
+# E-commerce Olist Store sales analysis
 ## Detailed analysis of Brazilian Ecommerce store: 100k orders from 2016 to 2018
 ## Table of contents
  - [Project Overview](#project-overview)
  - [Data Source](#data-source)
- - [Tools Used and dashboard](#tools-used-and-dashboard)
+ - [Tools Used](#tools-used)
  - [Data cleaning](#data-cleaning)
  - [Exploratory data analysis](#exploratory-data-analysis)
  - [Data Analysis](#data-analysis)
@@ -16,15 +16,18 @@
 
 This data analysis project aims to provide insights into the sales performance of an e-commerce company during the period of 2016 to 2018. By analyzing various aspects of the sales data, we seek to identify trends, make data driven recommendations, and gain a deeper understanding of the company´s performance. 
 
+[Dashboard](image)
+<img width="1454" alt="Screenshot 2024-04-15 at 20 11 45" src="https://github.com/Danieltadele777/Ecommerce-Olist-store/assets/147874875/a2796f5f-35c4-418d-a99c-5121d4a35b51">
+
 ### Data Source
 
 The data source used for this analysis is 'Brazilian E-Commerce Public Dataset by Olist: Kaggle'. The site also provided detailed information about join keys and data schemas. 
 
-### Tools Used and dashboard
+### Tools Used
 - Excel: Primary data cleaning
 - SQL: Google BigQuery for data claning and transformation
+- Panda: for data cleaning, inspection and analysis
 - Tableau: Visualization
-    - [Click here to see the dashboard](https://github.com/Danieltadele777/Ecommerce-Olist-store/blob/main/Screenshot%202024-04-15%20at%2020.11.45.png)
 
 ### Data cleaning
 In the initial data preparation phase I performed the following tasks:
