@@ -3,7 +3,7 @@
 ## Table of contents
  - [Project Overview](#project-overview)
  - [Data Source](#data-source)
- - [Tools Used](#tools-used)
+ - [Tools Used and dashboard](#tools-used-and-dashboard)
  - [Data cleaning](#data-cleaning)
  - [Exploratory data analysis](#exploratory-data-analysis)
  - [Data Analysis](#data-analysis)
@@ -20,10 +20,11 @@ This data analysis project aims to provide insights into the sales performance o
 
 The data source used for this analysis is 'Brazilian E-Commerce Public Dataset by Olist: Kaggle'. The site also provided detailed information about join keys and data schemas. 
 
-### Tools Used
+### Tools Used and dashboard
 - Excel: Primary data cleaning
 - SQL: Google BigQuery for data claning and transformation
 - Tableau: Visualization
+    - [Click here to see the dashboard](https://github.com/Danieltadele777/Ecommerce-Olist-store/blob/main/Screenshot%202024-04-15%20at%2020.11.45.png)
 
 ### Data cleaning
 In the initial data preparation phase I performed the following tasks:
@@ -43,14 +44,16 @@ In the initial data preparation phase I performed the following tasks:
 - Orders seasonality?
 
 ### Data Analysis
-Some of the SQL codes used. [detailed SQL codes attached here]()
+ - [Click here to see the SQL codes]()
+ - [Click here to see the Python codes]()
+
+Some of SQL code used:
 ```SQL
 SELECT *
 FROM
 WHERE
 ```
-
-Some of the Python codes used. [detailed Python codes attached here]()
+Some of the Python codes used: 
 
 
 ### Findings
