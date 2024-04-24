@@ -21,7 +21,7 @@ This data analysis project aims to provide insights into the sales performance o
 
 ### Data Source
 
-The data source used for this analysis is 'Brazilian E-Commerce Public Dataset by Olist: Kaggle'. The site also provided detailed information about join keys and data schemas. 
+The data source used for this analysis is 'Brazilian E-Commerce Public Dataset by Olist: Kaggle. The site also provided detailed information about join keys and data schemas. 
 
 ### Tools Used
 - Excel: Primary data cleaning
