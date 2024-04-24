@@ -48,7 +48,7 @@ In the initial data preparation phase I performed the following tasks:
 - What is the seasonality of orders?"
 
 ### [Data Analysis]()
- - [Click here to see the SQL codes]()
+ - [Click here to see the SQL codes](SQL codes)
  - [Click here to see the Python codes]()
 
 Some of SQL code used:
