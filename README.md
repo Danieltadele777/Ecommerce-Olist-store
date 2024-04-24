@@ -48,7 +48,7 @@ In the initial data preparation phase I performed the following tasks:
 - What is the seasonality of orders?"
 
 ### [Data Analysis]()
- - [Click here to see the SQL codes](https://github.com/Danieltadele777/Restaurant-360--food-chain/blob/main/SQL%20codes)
+ - [Click here to see the SQL codes]()
  - [Click here to see the Python codes]()
 
 For example this SQL code used to calculate the amount of delay in delivery and to group the delivery status by days:
