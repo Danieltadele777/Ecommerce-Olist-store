@@ -51,13 +51,28 @@ In the initial data preparation phase I performed the following tasks:
  - [Click here to see the SQL codes](https://github.com/Danieltadele777/Restaurant-360--food-chain/blob/main/SQL%20codes)
  - [Click here to see the Python codes]()
 
-Some of SQL code used:
-```SQL
-SELECT *
-FROM
-WHERE
-```
+For example this SQL code used to calculate the amount of delay in delivery and to group the delivery status by days:
 
+```SQL
+SELECT
+  delivery_status,
+  COUNT(order_id) AS order_count
+FROM (
+  SELECT
+    order_id
+    , CASE
+      WHEN actual_date > 20 THEN 'Severely Delayed'  ### This used to show how much late the order is
+      WHEN actual_date BETWEEN 11 AND 20 THEN 'Delayed'
+      WHEN actual_date BETWEEN 1 AND 10 THEN 'Slightly Delayed'
+      WHEN actual_date = 0 THEN 'On Time'
+      WHEN actual_date BETWEEN -10 AND -1 THEN 'Early Delivery' ## If its from 1 to 10 days early, it is early delivery
+      WHEN actual_date < -10 THEN 'Advanced Early Delivery'
+      ELSE 'Unknown'
+    END AS delivery_status
+  FROM `top-gantry-412313.Olist_orders_Tableau.Actual delivery date`) AS status_table
+GROUP BY delivery_status
+ORDER BY COUNT(order_id) DESC;
+```
 
 ### [Findings]()
 The analysis resulsts are summarized as follows:
