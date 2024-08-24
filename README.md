@@ -135,7 +135,7 @@ Based on the analysis I recommend the following actions:
 - In addition to that, I faced 601 products without any category. Because of limitations in the data provided, I wasn't able to add them to their respective categories.
 
 ### [Tableau visualization]()
-
+[Dashboard](image)
 <img width="1454" alt="Screenshot 2024-04-15 at 20 11 45" src="https://github.com/Danieltadele777/Ecommerce-Olist-store/assets/147874875/a2796f5f-35c4-418d-a99c-5121d4a35b51">
 [Click here to Access the Interactive Tableau Dashboard](https://public.tableau.com/app/profile/daniel.gebresenbet7026/viz/Moviesbygeneres/Olist)
 
