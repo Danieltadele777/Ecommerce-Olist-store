@@ -70,6 +70,7 @@ The data source used for this analysis is 'Brazilian E-Commerce Public Dataset b
 - SQL: Google BigQuery for data cleaning and transformation
 - Panda: for data cleaning, inspection, and analysis
 - Tableau: Visualization
+- Python, PySpark
 
 ### [Data cleaning]()
 In the initial data preparation phase I performed the following tasks:
