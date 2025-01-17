@@ -1,17 +1,17 @@
-# E-commerce Digital Analysis
+# E-commerce
 In this project, I conducted an in-depth analysis of the **Brazilian E-Commerce company**, which includes detailed records of **100,000 orders** made between 2016 and 2018 across various **online marketplaces in Brazil**. This analysis provides a comprehensive view of the Brazilian e-commerce landscape, capturing a wide range of variables such as order status, pricing, payment methods, freight logistics, customer demographics, product characteristics, and customer reviews.
 
 This analysis aims to extract actionable insights that can help understand customer behavior, optimize logistics, and improve overall e-commerce performance!
 
 ## Used KPIs
 **Order Volume**: 
-- Total Orders: The total number of orders placed during the period.
-- Orders per Month/Quarter: Tracking the order trends over time.
+- Total Orders
+- Orders per Month/Quarter
 
 **Revenue Metrics**:
-- Total Revenue: Sum of the revenue generated from all orders.
-- Average Order Value (AOV): Average revenue per order, calculated as total revenue divided by the number of orders.
-- Revenue by Product Category: Breakdown of revenue by different product categories.
+- Total Revenue
+- Average Order Value (AOV)
+- Revenue by Product Category
 
 **Customer Metrics**:
 - Customer Lifetime Value (CLV)
@@ -20,50 +20,43 @@ This analysis aims to extract actionable insights that can help understand custo
 
 **Payment Performance**:
 - Payment Method Distribution: The percentage of transactions made using different payment methods (e.g., credit card, debit card, voucher).
-- Payment Approval Rate: The percentage of orders where payment was successfully completed.
-- Average Payment Value: Average amount paid per order across all payment methods.
+- Payment Approval Rate
+- Average Payment Value
 
 **Logistics and Delivery Metrics**:
-- Average Delivery Time: The average number of days from order confirmation to delivery.
-- Freight Cost per Order: Average shipping cost associated with each order.
-- Delivery Success Rate: Percentage of orders delivered successfully on the first attempt.
-- Late Delivery Rate: Percentage of orders that were delivered later than the promised delivery date.
+- Average Delivery Time
+- Freight Cost per Order
+- Delivery Success Rate
+- Late Delivery Rate
 
 **Customer Satisfaction**:
-- Average Review Score: Average rating provided by customers in their reviews.
-- Percentage of 5-Star Reviews: Proportion of total reviews that are 5-star.
-- Return Rate: Percentage of products that were returned by customers.
+- Average Review Score
+- Percentage of 5-Star Reviews
+- Return Rate
 
 **Geographical Metrics**:
-- Sales by Region: Total revenue generated from different geographical regions.
-- Order Distribution by Region: Number of orders placed from different regions.
-- Freight Cost by Region: Average shipping cost for orders delivered to different regions.
+- Sales by Region
+- Order Distribution by Region
+- Freight Cost by Region
 
 **Product Performance**:
-- Top-Selling Products: Products with the highest sales volume.
-- Inventory Turnover: Rate at which products are sold and replaced over time.
-- Product Return Rate: Percentage of specific products that are returned.
+- Top-Selling Products
+- Inventory Turnover
+- Product Return Rate
 
 ## Table of contents
  - [Project Overview](#project-overview)
- - [Data Source](#data-source)
  - [Tools Used](#tools-used)
  - [Data cleaning](#data-cleaning)
  - [Exploratory data analysis](#exploratory-data-analysis)
- - [Data Analysis](#data-analysis)
  - [Findings](#findings)
  - [Recommendations](#recommendations)
  - [Limitations](#limitations)
  - [Tableau visualization](tableau-visualization)
- - [References](#references)
 
 ### [Project Overview]()
 
 By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company´s performance. 
-
-### [Data Source]()
-
-The data source used for this analysis is 'Brazilian E-Commerce Public Dataset by Olist: Kaggle. The site also provided detailed information about join keys and data schemas. 
 
 ### [Tools Used]()
 - Excel: Primary data cleaning
@@ -96,9 +89,6 @@ In this analysis, I explored key questions to gain insights into e-commerce perf
 - Which products received low reviews?
 - Which products received high reviews?
 - Which products generated the highest revenue?
-
-### [Data Analysis]()
- For data analysis and cleaning, I used SQL and Panda. 
 
 ### [Findings]()
 
@@ -139,6 +129,3 @@ Based on the analysis I recommend the following actions:
 [Dashboard](image)
 <img width="1454" alt="Screenshot 2024-04-15 at 20 11 45" src="https://github.com/Danieltadele777/Ecommerce-Olist-store/assets/147874875/a2796f5f-35c4-418d-a99c-5121d4a35b51">
 [Click here to Access the Interactive Tableau Dashboard](https://public.tableau.com/app/profile/daniel.gebresenbet7026/viz/Moviesbygeneres/Olist)
-
-### [References]()
-- [Stack Overflow](www.stackoverflow.com)
